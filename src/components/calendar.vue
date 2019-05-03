@@ -578,6 +578,7 @@
 				.textBox{
 					width: 100%;
 					height: 25px;
+					border: none;
 					margin-top: 15px;
 					font-size: 14px;
 					outline: none;
