@@ -96,7 +96,7 @@
 			init: function () {
 				this.monthAndYear();  //获取年月
 				//事例
-				this.setStorage([{year: 2019, month: 4, date: 9, event: "同学聚会", inDaysListIndex: 10, color: "#f05b72"}])
+				this.setStorage([{year: 2019, month: 4, date: 9, event: "同学聚会", inDaysListIndex: 10, color: "#f05b72"},{year: 2019, month: 4, date: 20, event: "公益活动", inDaysListIndex: 21, color: '#45b97c'}])
 				this.eventData = this.getStorage() || [];  //是否有本地数据
 				this.refresh();  //每次翻页刷新数据
 			},
